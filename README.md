@@ -3,7 +3,7 @@ git code, I use often but never remember
 
 #### Don't Forget
 - git reset --hard HEAD~1 (removes the last commit)
-_ rm -rf .git (removes tracking, but you may have to delete the git folder)
+- rm -rf .git (removes tracking, but you may have to delete the git folder)
 - CMD + shift + . (to see hidden files on MacOS like the git folder)
 - touch .gitignore (creating gitIgnore file in repo)
 
