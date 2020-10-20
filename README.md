@@ -1,4 +1,4 @@
-# important-git-code
+# important-git-code and instructions 
 git code, I use often but never remember 
 
 ## MacOS
@@ -22,4 +22,7 @@ git code, I use often but never remember
   - Windows + R to open run 
   - type mstsc
   - Type in the server address and whatever then login 
-
+  
+#### Redeploying 
+- Open the bin file on the server
+- Replace dll and pdb files that carry the solution name with the new one that was published 
