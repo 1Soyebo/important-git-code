@@ -14,6 +14,11 @@ git code, I use often but never remember
 - for individual files just use the file name
 - then add, commit and push :)
 
+
+###Cloning a bloody repository and pushing back to the repo 
+- git clone the git url
+- and just start working like nothing happpened
+
 ## Windows
 #### Deploying ASP.NET Web Api
 - Build > Publish > Folder Profile
