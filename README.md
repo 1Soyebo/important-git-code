@@ -15,9 +15,12 @@ git code, I use often but never remember
 - then add, commit and push :)
 
 
-### Cloning a bloody repository and pushing back to the repo 
+#### Cloning a bloody repository and pushing back to the repo 
 - git clone (the git url)
 - and just start working like nothing happpened
+
+#### Changing the Github User
+- git config --global credential.username "new_username"
 
 ## Windows
 #### Deploying ASP.NET Web Api
