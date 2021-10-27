@@ -15,12 +15,46 @@ git code, I use often but never remember
 - then add, commit and push :)
 
 
-#### Cloning a bloody repository and pushing back to the repo 
+#### Cloning a repository and pushing back to the repo 
 - git clone (the git url)
 - and just start working like nothing happpened
 
 #### Changing the Github User
 - git config --global credential.username "new_username"
+
+## Collaborative Stuff 🤝
+
+### Branches
+- git branch - To know what branch you're own 
+- git branch 'branchName' - creates a new branch 
+- git checkout 'branchName' - to move to a branch 
+
+### Pulling
+- git pull - to pull changes from the remote repository into working directory
+
+### Stashing Commits and Pulling
+If you want to pull changes into your working directory, you would have to commit the changes you've made so they are not lost. 
+```
+git add .
+git commit -m 'commit message'
+git pull
+```
+
+### Pulling From Master Branch into Your own Branch Like Master
+This is important so you don't modify the code in master or destroy the branch
+```
+git checkout master
+git pull
+
+git checkout <your branch>
+git merge master
+```
+
+### Puliing from Another branch into yours 
+```
+git pull
+git merge origin timi
+```
 
 ## Windows
 #### Deploying ASP.NET Web Api
