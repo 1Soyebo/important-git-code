@@ -56,6 +56,33 @@ git pull
 git merge origin timi
 ```
 
+### Undoing a Commit that has not been pushed 
+[Resource for Commit Deletion](https://www.junosnotes.com/git/how-to-unstage-files-on-git/#:~:text=To%20unstage%20commits%20on%20Git,and%20specify%20the%20commit%20hash.&text=Alternatively%2C%20if%20you%20want%20to%20unstage%20your%20last%20commit%2C%20you,order%20to%20revert%20it%20easily.&text=Using%20the%20%E2%80%9C%E2%80%93soft%E2%80%9D%20argument,your%20working%20directory%20and%20index.)
+this removes the commit but your changes remain
+```
+git reset --soft HEAD~1
+```
+
+### Git Stash
+[Resource for Stash](https://git-scm.com/docs/git-stash)
+
+Git stash stores your current changes in a cache and resets the working directory to the last commit that was pushed so it appears like there are no new changes
+The changes can now be reapplied with 
+
+```
+git stash apply
+```
+
+### Removing a large file from Github in a Commit that has not been pushed 
+[Resource for Large File Deletion](https://medium.com/analytics-vidhya/tutorial-removing-large-files-from-git-78dbf4cf83a)
+```
+git rm --cached csv_building_damage_assessment.csv
+git commit --amend -C HEAD
+```
+
+
+
+
 ## Windows
 #### Deploying ASP.NET Web Api
 - Build > Publish > Folder Profile
