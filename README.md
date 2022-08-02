@@ -14,6 +14,15 @@ git code, I use often but never remember
 - for individual files just use the file name
 - then add, commit and push :)
 
+> 🚨 For android add / at the beginning of the file path
+
+Examples
+<br>
+
+```
+/app/release/
+/app/build/outputs/
+```
 
 #### Cloning a repository and pushing back to the repo 
 - git clone (the git url)
